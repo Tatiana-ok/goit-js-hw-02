@@ -8,3 +8,13 @@ const getItemsString = function(array) {
   };
   
   console.log(getItemsString(['Mango', 'Poly', 'Ajax', 'Lux', 'Jay', 'Kong']));
+
+  const getItemsString = function(array) {
+  'use strict';
+  // Write code under this line
+  let result = '';
+  for (let i = 0; i < array.lenth; i += 1) {
+    result = `${array.lenth - 1} - ${array[i]}\n`;
+	};
+    
+};
